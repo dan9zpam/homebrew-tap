@@ -7,7 +7,7 @@ cask "agylimits" do
   desc "macOS Menu Bar app to track Google Antigravity (AGY) limits in real-time"
   homepage "https://github.com/dan9zpam/AgyLimitsBar"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AGY Limits Bar.app"
 
