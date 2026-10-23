@@ -1,10 +1,10 @@
 cask "agylimit" do
-  version "1.1.0"
-  sha256 "84c67dd9d3b79aece5252957e061692c41d9bd79b989c6ab6ab6a325afcfb01f"
+  version "1.2.0"
+  sha256 "b0367b889dbc3508a49ebd8519306f5f613190269cd5403ce60c2d25b9c9e2db"
 
   url "https://github.com/dan9zpam/AgyLimitsBar/releases/download/v#{version}/AgyLimitsBar-v#{version}.zip"
   name "AGY Limits Bar"
-  desc "macOS Menu Bar app to track Google Antigravity (AGY) limits in real-time"
+  desc "Menu bar app for Claude Code and Google Antigravity (AGY) usage limits"
   homepage "https://github.com/dan9zpam/AgyLimitsBar"
 
   depends_on macos: :ventura
