@@ -11,9 +11,8 @@ cask "claudelimitsbar" do
 
   app "Claude Limits Bar.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/Claude Limits Bar.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Claude Limits Bar.app"]
   end
 
   zap trash: [
